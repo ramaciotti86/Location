@@ -1,0 +1,8 @@
+########################################################################
+## HTTP Requests to HEREAPI to get the position of the place selected ##
+########################################################################
+
+GET https://geocode.search.hereapi.com/v1/geocode?q=London&apiKey=3DWoA62UFtwpYL1k3YNf3-o19jADI-ijKWC6Ic5MhVE
+Accept: application/json
+
+###

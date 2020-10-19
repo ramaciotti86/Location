@@ -1,0 +1,18 @@
+############################################################################
+## HTTP Requests to facilitate developer life when need to test endpoints ##
+#############################################################################
+####### JSON #######
+###################
+
+GET http://localhost:8080/city/London/distance/50/unit/M/users
+Accept: application/json
+
+###################
+####### XML #######
+###################
+
+GET http://localhost:8080/city/London/distance/50/unit/M/users
+Accept: application/xml
+Content-Type: application/xml
+
+###
