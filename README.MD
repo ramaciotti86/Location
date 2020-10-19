@@ -43,7 +43,7 @@ Harvesine Formula
 --------------------------
 The calculation of the distance between 2 points on the sphere is based on the so called Haversine formula.
 This is shown in a number of sites on the internet with math details in the Wikipedia page: https://en.wikipedia.org/wiki/Haversine_formula
-We made use of it, without going deeper on math details.
+I made use of it, without going deeper on math details.
 In addition, many sites also show the code for the distance of two points in a number of languages such as C, C++, Java, and so on.
 The implementation I took was from https://rosettacode.org/wiki/Haversine_formula.
 
