@@ -18,6 +18,6 @@ public class HaversineImplTest {
     @ParameterizedTest(name = "{0}")
     @MethodSource("haversineTestObjs")
     public void haversineTest(HaversineTestObj haversineTestObj) {
-        harvesine.calculation(haversineTestObj.getCityLat(), haversineTestObj.getCityLon(), haversineTestObj.getUser(), haversineTestObj.getEarthRadiusSelected());
+        Assertions.assertEquals(haversineTestObj.expectedReturn, harvesine.calculation(haversineTestObj.getCityLat(), haversineTestObj.getCityLon(), haversineTestObj.getUser(), haversineTestObj.getEarthRadiusSelected()));
     }
 }
