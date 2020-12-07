@@ -54,4 +54,3 @@ Findings
 <p>Suppose the client calls "/city/{city}/distance/{distance}/users" API, I am using the distance number to calculate the people by latitude and longitude what returns the list with 3 people on it, the users that I found by latitude and longitude using the "haversine formula."</p>
 <p>Queries I had about the implementation, consistent data and, longitude and latitude calculation I believe that would be quick/easier to clarify with team communication (face2face).</p> 
 <p>Another point that I would like to raise is that the core of the solution is the calculation of the distance between two points passing latitude and longitude on a sphere. The "haversine formula" is the mathematical solution. I need to do some research and dig around on the internet to find the correct way to do.</p>
-<p>Thanks for the opportunity and hope to see you soon.</p>
